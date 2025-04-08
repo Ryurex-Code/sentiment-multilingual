@@ -33,7 +33,24 @@ Supports text input in multiple languages including Indonesian, English, Spanish
 
 ## 💻 Running Locally
 
-### 1. Clone the repository
+Follow the steps below to run this project locally on your machine:
+
 ```bash
+# 1. Clone the repository
 git clone https://github.com/Ryurex/sentiment-multilingual.git
 cd sentiment-multilingual
+
+# 2. (Optional but recommended) Create and activate a virtual environment
+python -m venv venv
+
+# For Windows
+.\venv\Scripts\activate
+
+# For Linux/Mac
+source venv/bin/activate
+
+# 3. Install required dependencies
+pip install -r requirements.txt
+
+# 4. Run the application
+python app.py
